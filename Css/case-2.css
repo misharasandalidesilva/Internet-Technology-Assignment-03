@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 80px;
+    font-family: "Moderustic", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    height: 60px;
+    top: 14%;
+    left: 2%;
+    height: 49px;
+    width: 245px;
+}
+
+.navigation {
+    display: flex;
+    column-gap: 20px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #686464;
+}
+
+main {
+    position: relative;
+    display: flex;
+    height: fit-content;
+    background-color: rgb(55, 2, 104);
+}
+
+.side-bar {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(133, 83, 18);
+}
+
+.side-navigation {
+    position: absolute;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    list-style: none;
+    text-align: left;
+}
+
+.side-navigation li a {
+    font-family: "Moderustic", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    position: relative;
+    height: fit-content;
+    min-height: 90vh;
+    width: 80%;
+    margin-top: 5px;
+    padding: 5px 40px;
+    background-color: white;
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-image-1 {
+    width: 35%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid rgb(3, 156, 3);
+    border-left: 2px solid black;
+    border-right: 1px solid rgb(3, 156, 3);
+}
+
+.content-image-2 {
+    width: 35%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid rgb(3, 156, 3);
+    border-left: 1px solid rgb(3, 156, 3);
+    border-right: 1px solid rgb(3, 156, 3);
+   
+}
+
+.content-image-3 {
+    width: 35%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid rgb(3, 156, 3);
+    border-left: 1px solid rgb(3, 156, 3);
+    border-right: 2px solid black;
+}
+
+.content p {
+    font-size: 1rem;
+    font-family: "monospace", Calibri; 
+    font-weight: 600;  
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: -30px; 
+    color: #615b5b;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    font-family: "Moderustic", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}
